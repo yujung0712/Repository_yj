@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 
-using std::cout;
-using std::endl;
-using std::cin;
+// Modified
+
+using std::cout, std::endl, std::cin;
 
 unsigned long long factorial(const unsigned int& num) {
     static unsigned long long dp[32]{ 1, 1, 2, };
